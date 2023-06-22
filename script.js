@@ -5,7 +5,7 @@ const weatherDiv = document.getElementById("weather");
 submitButton.addEventListener("click", function() {
   const cityName = cityInput.value;
   const apiKey = "a40ac0ba077c537659f2a82221e61be5";
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${inputValue}&appid=${apiKey}`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}`;
   // Get weather data for the city name.
   fetch(url)
     .then(response => response.json())
