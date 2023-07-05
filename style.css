@@ -6,8 +6,8 @@ body {
    
     background-position: center; background-repeat: no-repeat; background-size: cover;
     text-align: center;
-    width: 90%;
-    height: 100vh;
+    width: 95%;
+    height: 94vh;
     margin: 0 auto;
   }
   
@@ -33,6 +33,6 @@ body {
   }
   
   #weather {
-    margin-top: 20px; font-size: 1.5rem; color: #fff; background-color: #33333372;
+    margin-top: 20px; font-size: 1.5rem; color: #fff;
     height: auto; padding: 20px 0px;
   }
