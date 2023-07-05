@@ -33,6 +33,6 @@ body {
   }
   
   #weather {
-    margin-top: 20px; font-size: 1.5rem; color: #fff;
+    margin-top: 20px; font-size: 1.5rem; color: #fff; background-color: #33333372;
     height: auto; padding: 20px 0px;
   }
